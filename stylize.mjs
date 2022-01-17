@@ -1,10 +1,10 @@
 
-const axios = require('axios');
+import axios from 'axios';
 
-const glob = require('glob');
-const fs = require('fs');
+import glob from 'glob';
+import fs from 'fs';
 
-const FormData = require('form-data');
+import FormData from 'form-data';
 
 
 const MAX_IMAGE_SIZE = 5000000;
