@@ -65,7 +65,7 @@ export default function (env, __dirname) {
                     }],
                 },
                 {
-                    test: /\.(png|jpe?g|svg|woff(2)?|eot|ttf)$/,
+                    test: /\.(png|jpe?g|svg)$/,
                     use: [
                         {
                             loader: 'file-loader',
