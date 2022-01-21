@@ -13,12 +13,14 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
+        with:
+          path: src
       - name: Initialize Node.js environment
         uses: actions/setup-node@v2
-        working-directory: src
         with:
           node-version: '16'
           cache: 'npm'
+        working-directory: src
       - name: Check out deploy branch
         uses: actions/checkout@v2
         with:
