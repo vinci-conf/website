@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '16'
           cache: 'npm'
-          path: src
+          working-directory: src
       - name: Check out deploy branch
         uses: actions/checkout@v2
         with:
