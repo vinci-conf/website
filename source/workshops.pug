@@ -4,28 +4,65 @@ block content
 
   section.container
 
+    //- .row.justify-content-center
+    //-   .col-custom.col-padding
+
+    //-     +h2('Workshops')
+    //-     p
+    //-       | Workshop for the VINCI 2022 can still be proposed. For more information see #[a(href="/submissions.html") Submissions] page.
+    //-       | More information will follow in the coming days and weeks.
+
+
+    .row.justify-content-center
+      .col-custom.col-padding
+        +h2('Workshops')
+
+        ul.list
+          li.list-item #[a(href="workshops.html#yavic") Youth Academic Workshop on Visual Information Communication (YAVIC)] 
+          //- li.list-item #[a(href="workshops.html#3divc") Workshop on 3D Interaction for Visual Communication (3DIVC)] 
+          li.list-item #[a(href="workshops.html#previous").text-muted Previous Workshops of VINCI] 
+
+        p
+          | Please submit your workshop paper by following the submission guidelines of VINCI for short papers (4 pages limit). 
+          | The workshop paper submission deadline is on #{conference.dates.workshop_paper}. 
+          | Early work and prototypes are welcome!
+
     .row.justify-content-center
       .col-custom.col-padding
 
-        +h2('Workshops')
-        p
-          | Workshop for the VINCI 2022 can still be proposed. For more information see #[a(href="/submissions.html") Submissions] page.
-          | More information will follow in the coming days and weeks.
+        a(name = 'yavic')
+          +h2('Youth Workshop')
 
+        h3 2nd Youth Academic Workshop on Visual Information Communication
+        p 
+          | The rapid development of the field of data science creates many new ideas, concepts, technologies, from machine and deep learning, clustering, data mining, knowledge extraction, but also more visualization-related topics like visual analytics, information and software visualization, AR, VR, MR, immersive analytics, as well as explainable AI or human-computer interaction.
+        p 
+          | To offer an opportunity for young researchers in these fields we organize the 2nd Youth Academic Workshop on Visual Information Communication to attract submissions from bachelor and master students. 
+          | The papers must be submitted as short papers (4 pages written in English) in our VINCI conference paper format. 
+          | The submission deadline is #[strong April 15th, 2022], the same as for the short and full papers. 
+          | The papers will be peer-reviewed and in case of acceptance published in the ACM VINCI proceedings as short papers. 
+          | The students of accepted papers can register for the conference at a reduced registration fee of only 100 Euros.
 
-    //- .row.justify-content-center
-    //-   .col-custom.col-padding
-    //-     +h2('Workshops')
+        h3 The relevant topics for this workshop are:
 
-    //-     ul.list
-    //-       li.list-item #[a(href="workshops.html#vci") Workshop on Visual Communication in and for the Industry (VCI)] 
-    //-       li.list-item #[a(href="workshops.html#3divc") Workshop on 3D Interaction for Visual Communication (3DIVC)] 
-    //-       li.list-item #[a(href="workshops.html#previous").text-muted Previous Workshops of VINCI] 
+        ul
+          li Information visualization
+          li Visual analytics
+          li Data science
+          li Machine and deep learning
+          li Explainable AI
+          li Human-computer interaction
+          li Arts and computational aesthetics
+      
+        p 
+          | Acceptable submission types include position papers, case studies, surveys, methods and techniques, and evaluations. 
+          | Early work and prototypes are welcome, however, no plagiarism is allowed.
 
-    //-     p
-    //-       | Please submit your workshop paper by following the submission guidelines of VINCI for short papers (4 pages limit). 
-    //-       | The workshop paper submission deadline is on #{conference.dates.workshop_paper}. 
-    //-       | Early work and prototypes are welcome!
+        h3 Paper Chairs:
+        p 
+          | Wolfgang Semar and Michael Burch, 
+          <br>
+          | FHGR, University of Applied Sciences, Chur, Switzerland
 
 
     //- .row.justify-content-center
