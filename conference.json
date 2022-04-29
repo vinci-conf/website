@@ -11,18 +11,18 @@
     "dates" : {
         "example":               [ "02/01/2022", "04/03/2022", "06/05/2022" ],
 
-        "ws_props_submission":   [ "04/29/2022" ],
+        "ws_props_submission":   [ "05/06/2022" ],
         "ws_props_notification": [ "05/01/2022" ],
 
         "workshop_submission":   [ "06/15/2022" ],
         "workshop_notification": [ "07/01/2022" ],
         "workshop_cameraready":  [ "07/15/2022" ],
 
-        "full_submission":       [ "04/29/2022" ],
+        "full_submission":       [ "05/06/2022" ],
         "full_notification":     [ "06/01/2022" ],
         "full_cameraready":      [ "07/15/2022" ],
 
-        "short_submission":      [ "04/29/2022" ],
+        "short_submission":      [ "05/06/2022" ],
         "short_notification":    [ "06/01/2022" ],
         "short_cameraready":     [ "07/15/2022" ],
         
