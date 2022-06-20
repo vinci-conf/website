@@ -33,47 +33,47 @@ block content
 
         +h2('Registration Fees')
 
-        p More information will follow in the coming days and weeks.
+        //- p More information will follow in the coming days and weeks.
         
-        //- .col-lg-10.col-11.mt-4
-        //-   table.table.table-sm.text-end.table-borderless.align-middle.table-hover
-        //-     thead
-        //-       tr.text-center.text-muted
-        //-         th(scope = 'col').border-end.border-dark
-        //-         th(scope = 'col' colspan = '2').border.border-bottom-0.border-dark Regular
-        //-         th(scope = 'col' colspan = '2').border.border-bottom-0.border-dark Student
-        //-     thead
-        //-       tr
-        //-         td.border-end.border-dark
-        //-         td.border.border-top-0.border-dark.pe-4 Non-ACM
-        //-         td.border.border-top-0.border-dark.pe-4 ACM
-        //-         td.border.border-top-0.border-dark.pe-4 Non-ACM
-        //-         td.border.border-top-0.border-dark.pe-4 ACM
-        //-     tbody
-        //-       tr.border-bottom.border-muted
-        //-         td(scope = 'row').border-end.border-dark.text-start #[s.text-muted Early Bird *]
-        //-         td.border-end.pe-4 #[s.text-muted 450 EUR]
-        //-         td.border-end.pe-4 #[s.text-muted 350 EUR]
-        //-         td(rowspan = '2').border-end.pe-4 #[s.text-muted 300 EUR]
-        //-         td(rowspan = '2').border-end.border-dark.pe-4 #[s.text-muted 250 EUR]
-        //-       tr.border-bottom.border-muted
-        //-         td(scope = 'row').border-end.border-dark.text-start #[s.text-muted Default]
-        //-         td.border-end.pe-4 #[s.text-muted 550 EUR]
-        //-         td.border-end.pe-4 #[s.text-muted 450 EUR]
-        //-       tr.border-bottom.border-muted
-        //-         td(scope = 'row').text-start #[s.text-muted Social Event **]
-        //-         td(colspan = '4').border.border-dark.pe-4 #[s.text-muted + 60 EUR]
-        //-       tr
-        //-         td(scope = 'row').border-end.border-dark.text-start Virtual Attendance
-        //-         td(colspan = '4').border.border-dark.pe-4 100 EUR
-        //-       tr
-        //-         td(scope = 'row')
-        //-         td(colspan = '4').border-0.text-start.text-muted
-        //-           | #[s * Early bird deadline is #{conference.dates.registration}.]
-        //-           | #[s ** The social event is optional.]
-        //-           | #[div.text-danger Should you have already registered for an on-site attendance, do not worry;]
-        //-           | #[div.text-danger We will get in contact with you soon and will of course make a refund. ]
-        //-           | We apologize for all inconveniences.
+         .col-lg-10.col-11.mt-4
+           table.table.table-sm.text-end.table-borderless.align-middle.table-hover
+             thead
+               tr.text-center.text-muted
+                 th(scope = 'col').border-end.border-dark
+                 th(scope = 'col' colspan = '2').border.border-bottom-0.border-dark Regular
+                 th(scope = 'col' colspan = '2').border.border-bottom-0.border-dark Student
+             thead
+               tr
+                 td.border-end.border-dark
+                 td.border.border-top-0.border-dark.pe-4 Non-ACM
+                 td.border.border-top-0.border-dark.pe-4 ACM
+                 td.border.border-top-0.border-dark.pe-4 Non-ACM
+                 td.border.border-top-0.border-dark.pe-4 ACM
+             tbody
+               tr.border-bottom.border-muted
+                 td(scope = 'row').border-end.border-dark.text-start #[s.text-muted Early Bird *]
+                 td.border-end.pe-4 #[s.text-muted 450 EUR]
+                 td.border-end.pe-4 #[s.text-muted 350 EUR]
+                 td(rowspan = '2').border-end.pe-4 #[s.text-muted 300 EUR]
+                 td(rowspan = '2').border-end.border-dark.pe-4 #[s.text-muted 250 EUR]
+               tr.border-bottom.border-muted
+                 td(scope = 'row').border-end.border-dark.text-start #[s.text-muted Default]
+                 td.border-end.pe-4 #[s.text-muted 550 EUR]
+                 td.border-end.pe-4 #[s.text-muted 450 EUR]
+               tr.border-bottom.border-muted
+                 td(scope = 'row').text-start #[s.text-muted Social Event **]
+                 td(colspan = '4').border.border-dark.pe-4 #[s.text-muted + 60 EUR]
+               tr
+                 td(scope = 'row').border-end.border-dark.text-start Virtual Attendance
+                 td(colspan = '4').border.border-dark.pe-4 100 EUR
+               tr
+                 td(scope = 'row')
+                 td(colspan = '4').border-0.text-start.text-muted
+                   | #[s * Early bird deadline is #{conference.dates.registration}.]
+                   | #[s ** The social event is optional.]
+                   | #[div.text-danger Should you have already registered for an on-site attendance, do not worry;]
+                   | #[div.text-danger We will get in contact with you soon and will of course make a refund. ]
+                   | We apologize for all inconveniences.
 
             
 
